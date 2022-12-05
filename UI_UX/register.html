@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&di
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    poppins: ['Poppins']
+                }
+            }
+            
+        }
+    }
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="pt-32 pb-20 flex items-center justify-center">
+        <div>
+            <img class="h-full w-full bg-cover" src="./res/img/illustration.png" alt="">
+        </div>
+        <h2 class="text-blue-400 text-4xl font-bold">Daftar</h2>
+    </div>
+    <div class="pt-11 flex flex-col w-full items-center gap-7">
+        <div class="flex items-center gap-3">
+            <i class="fa-solid fa-at"></i>
+            <input class="border-b-2" type="text" id="nama" placeholder="Nama">
+        </div>
+        <div class="flex items-center gap-3">
+            <i class="fa-solid fa-at"></i>
+            <input class="border-b-2" type="text" id="email" placeholder="Email">
+        </div>
+        <div class="flex items-center gap-3">
+            <i class="fa-solid fa-lock"></i>
+            <input class="border-b-2" type="text" id="password" placeholder="Password">
+        </div>
+        <div class="px-11 mx-auto w-full flex justify-between items-center gap-3 w ">
+            <div>
+                <i class="fa-solid fa-at"></i>
+                <input class="border-b-2" type="text" id="tanggal_lahir" placeholder="Tanggal Lahir">
+            </div>
+            <div>
+                <i class="fa-solid fa-at"></i>
+                <input class="border-b-2" type="text" id="usia_kehamilan" placeholder="Usia Kehamilan">
+            </div>
+        </div>
+        <div class="px-11 mx-auto w-full flex justify-between items-center gap-3">
+            <div>
+                <i class="fa-solid fa-at"></i>
+                <input class="border-b-2" type="text" id="tinggi_badan" placeholder="Tinggi Badan">
+            </div>
+            <div>
+                <i class="fa-solid fa-at"></i>
+                <input class="border-b-2" type="text" id="berat_badan" placeholder="Berat Badan">
+            </div>
+        </div>
+        <div class="flex items-center gap-3">
+            <i class="fa-solid fa-at"></i>
+            <input class="border-b-2" type="text" id="jenis_kelamin_bayi" placeholder="Jenis Kelamin Bayi (Belum Tahu)">
+        </div>
+        <div class="flex items-center gap-3">
+            <i class="fa-solid fa-at"></i>
+            <input class="border-b-2" type="text" id="alergi" placeholder="Alergi">
+        </div>
+    </div>
+    </div>
+    <div class="pt-6 px-16 mx-auto w-full flex justify-between items-center">
+        <button type="button" class="border-2 border-blue-400 bg-white text-blue-400 rounded-full px-7 py-1">Kembali</button>
+        <button type="button" class="bg-blue-400 hover:bg-blue-600 transition-all text-white rounded-full px-7 py-1">Masuk</button>
+    </div>
+</body>
+<br>
+<br>
+<br>
+</html>

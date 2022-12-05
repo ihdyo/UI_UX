@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    poppins: ['Poppins']
+                }
+            }
+            
+        }
+    }
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body class="font-poppins">
+    <div class="w-full pt-10 flex flex-col items-center">
+        <span class="text-lg">Selamat datang di</span>
+        <h1 class="text-blue-400 text-lg">Digitalisasi Kesehatan Prenatal</h1>
+        <h2 class="text-blue-400 text-4xl font-bold mt-8">Masuk</h2>
+        <div class="w-80 pt-5">
+            <img class="h-full w-full bg-cover" src="./res/img/undraw_Login_re_4vu2.png" alt="">
+        </div>
+        <div class="pt-11 flex flex-col w-full items-center gap-7">
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-at"></i>
+                <input class="border-b-2" type="text" id="email" placeholder="Email">
+            </div>
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-lock"></i>
+                <input class="border-b-2" type="text" id="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="pt-6 px-16 mx-auto w-full flex justify-between items-center">
+            <a href="#" class="text-xs underline text-blue-400">Lupa Kata Sandi</a>
+            <button type="button" class="bg-blue-400 hover:bg-blue-800 transition-all text-white rounded-full px-7 py-1">Masuk</button>
+        </div>
+    </div>
+</body>
+</html>
